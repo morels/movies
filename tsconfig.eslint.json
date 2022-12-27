@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "dist",
+  ],
+  "include": [
+    "**/*.tsx",
+    "**/*.ts",
+    ".eslintrc.js",
+    "postcss.config.js",
+    "webpack.config.js"
+  ]
+}
