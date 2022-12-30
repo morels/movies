@@ -1,0 +1,27 @@
+.MovieReviewList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-1);
+}
+
+.MovieReview {
+  border: 1px solid var(--black-light);
+  border-radius: 1rem;
+  background-color: var(--black-medium);
+  padding: var(--space-1);
+  margin: var(--space-1) 0;
+  /* Layout */
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-1);
+}
+
+.Text {
+  line-height: 1.2;
+  margin: 0 0 var(--space-05) 0;
+}
+
+.Author {
+  font-size: var(--font-size-sm);
+  color: var(--secondary);
+}

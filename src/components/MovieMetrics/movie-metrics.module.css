@@ -1,0 +1,39 @@
+.MetricContainer {
+  margin-top: 1rem;
+}
+
+.Label {
+  color: var(--secondary);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 1px;
+}
+
+.Inline {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.Wrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Icon {
+  font-size: var(--font-size-large);
+  display: flex;
+  align-items: center;
+}
+
+.Rating {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+}
+
+.Text {
+  margin-top: 1rem;
+  line-height: 1.2;
+}

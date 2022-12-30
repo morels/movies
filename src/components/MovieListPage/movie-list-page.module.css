@@ -1,0 +1,58 @@
+.MovieListPage {
+  display: flex;
+  flex-direction: column;
+
+  margin: var(--space-2);
+}
+
+.Title {
+  font-size: var(--font-size-large);
+}
+
+.MovieCard {
+  border: 1px solid var(--black-light);
+  border-radius: 1rem;
+  background-color: var(--black-medium);
+  padding: var(--space-1);
+  margin: var(--space-1) 0;
+
+  cursor: pointer;
+}
+
+.Layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.Icon {
+  font-size: var(--font-size-large);
+  flex-grow: 0;
+}
+
+.LayoutText {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.Title {
+  font-size: var(--font-size-semilarge);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.52;
+}
+
+.Subtitle {
+  color: var(--secondary);
+}
+
+.Subtitle span+span {
+  margin-left: var(--space-05);
+}
+
+.Subtitle span+span::before {
+  content: "•";
+  right: var(--space-025);
+  position: relative;
+}

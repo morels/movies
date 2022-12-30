@@ -1,0 +1,19 @@
+.Spinner {
+  /* If not defined, a miscalculated width may compromise the animation */
+  width: fit-content;
+  animation: spin infinite 2s linear reverse;
+}
+
+[data-size="large"] {
+  font-size: var(--font-size-large);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

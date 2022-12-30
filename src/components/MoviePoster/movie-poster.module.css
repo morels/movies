@@ -1,0 +1,8 @@
+.MoviePoster {
+  float: left;
+  margin-right: var(--space-1);
+}
+
+.Image {
+  max-height: 500px;
+}
